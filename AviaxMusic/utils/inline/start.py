@@ -28,7 +28,8 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text="𝖠𝖯𝖨 𝖢𝗈𝗇𝗌𝗈𝗅𝖾",
-                callback_data="api_console"
+                callback_data="api_console",
+                "style": "danger"
             )
         ],
         [
